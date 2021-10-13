@@ -1,6 +1,5 @@
 html
 {
-    margin-left:10px;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
@@ -57,6 +56,7 @@ html
     right:10px;
 
 }
+
 .grille
 {
     display:grid;
@@ -71,15 +71,60 @@ html
 {
     display:grid;
     grid-template-columns: 100%;
+    grid-row-gap: 5px;
 }
 .grillehebergement
 {
     background-color: white;
 }
+.grillehebergement img
+{
+    width:300px;
+}
+.grillehebergement figcaption
+{
+    margin-left: 5px;
+}
+.grillehebergement div
+{
+    box-shadow: 0px 15px 10px 3px #F2F2F2;
+    border-radius: 15px;
+}
 .droite
 {
-    width:450px;
+    width:360px;
 }
+.droite img
+{
+    width:200px;
+    height:120px;
+}
+.droite figcaption
+{
+    height:120px;
+    width:150px;
+    font-size: 0.9em;
+}
+.dumatin
+{
+    height:130px;
+    width:358px;
+}
+.deleau
+{
+    height:130px;
+    width:358px;
+}
+.etblanc
+{
+    height:130px;
+    width:358px;
+}
+.droite div.rating
+{
+    width:70px;
+    height:50px;
+} 
 .emile
 {
     width:100px;
@@ -88,7 +133,7 @@ html
 .heber
 {
     position: relative;
-    top:710px;
+    top:610px;
 }
 .heber
 {
@@ -97,7 +142,7 @@ html
 .populaires
 {
     position:relative;
-    bottom:2030px;
+    bottom:2000px;
     left:60px;
 }
 .marseille
@@ -105,21 +150,84 @@ html
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 15px;
+    grid-row-gap: 20px;
+    height:1750px;
 }
-.activitesgrille
+.marseille img
 {
-    display:grid;
-    grid-template-columns: repeat(auto-fill,300px);
-    justify-content: center;
-    grid-column-gap: 10px;
+    width:353px;
+    height:200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    right:3px;
+    bottom:5px;
+}
+.style
+{
+    color:black;
+    margin-left: 5px;
 }
 .vieuxport
 {
-    width:300px;
+    height:260px;
+    width:354px;
 }
-.vieuxp
+.vieuxport
 {
-    width:306px;
+    box-shadow: 0px 5px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.fortdepomegues
+{
+    height:260px;
+    width:354px;
+}
+.fortdepomegues
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.iledufrioul
+{
+    height:260px;
+    width:354px;
+}
+.iledufrioul
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.parcnational
+{
+    height:260px;
+    width:354px;
+}
+.parcnational
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.notredame
+{
+    height:260px;
+    width:354px;
+}
+.notredame
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.parclongchamp
+{
+    height:260px;
+    width:354px;
+}
+.parclongchamp
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
 }
 .footer
 {
@@ -133,7 +241,7 @@ html
 .footer
 {
     font-size: 20px;
-    width:335px;
+    width:333px;
 }
 .nosheber
 {
