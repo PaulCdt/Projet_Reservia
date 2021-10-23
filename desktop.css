@@ -2,6 +2,36 @@
 {
     background-color: #F2F2F2;
 }
+ul
+{
+    display:grid;
+    grid-template-columns: 30% 30% 30% 30%;
+}
+ul li:nth-child(1) 
+{
+    position: relative;
+    bottom:15px;
+}
+ul li:nth-child(2)
+{
+    position: relative;
+    left:500px;
+}
+ul li:nth-child(3)
+{
+    position: relative;
+    left:500px;
+}
+ul li:nth-child(4)
+{
+    position: relative;
+    left:500px;
+}
+.populaires
+{
+    position: relative;
+    bottom:730px;
+}
 #loupe
 {
     visibility: hidden;

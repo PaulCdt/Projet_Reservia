@@ -27,6 +27,24 @@ a
     text-decoration: none;
     color: blue;
 }
+ul li:nth-child(2)
+{
+    position: relative;
+    top:95px;
+    text-decoration: underline #F2F2F2;
+}
+ul li:nth-child(3)
+{
+    position: relative;
+    top:58px;
+    left:200px;
+}
+ul li:nth-child(4)
+{
+    position: relative;
+    bottom:130px;
+    left:230px;
+}
 .nav:hover
 {
     text-decoration: underline;
@@ -146,7 +164,8 @@ mark
 {
     display:grid;
     grid-template-columns: 100%;
-    grid-row-gap: 5px;
+    grid-row-gap: 10px;
+    grid-column-gap:20px;
 }
 .grillehebergement
 {
@@ -174,7 +193,7 @@ mark
     width:200px;
     height:120px;
 }
-.droite figcaption
+.droite figure
 {
     height:120px;
     width:150px;
@@ -318,10 +337,6 @@ mark
 {
     display:grid;
     grid-template-columns: 100%;
-}
-.footer
-{
-    grid-column: 30%;
 }
 .footer
 {

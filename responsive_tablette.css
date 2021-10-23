@@ -28,6 +28,31 @@ a
     text-decoration: overline;
     color: #0065FC;
 }
+ul
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30%;
+}
+ul li:nth-child(1) 
+{
+    position: relative;
+    bottom:15px;
+}
+ul li:nth-child(2)
+{
+    position: relative;
+    left:200px;
+}
+ul li:nth-child(3)
+{
+    position: relative;
+    left:300px;
+}
+ul li:nth-child(4)
+{
+    position: relative;
+    left:350px;
+}
 #loupe
 {
     visibility: hidden;
