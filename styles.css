@@ -43,10 +43,7 @@ input
     display: inline;
     padding: 1px;  
 }
-.filtres:hover
-{
-    background-color: #F2F2F2;
-}
+
 mark
 {
     background-color: #0065FC;
@@ -60,11 +57,7 @@ mark
 {
     visibility: hidden;
 }
-a
-{
-    text-decoration: none;
-    color: #0065FC;
-}
+
 ul
 {
     list-style-type: none;
@@ -167,11 +160,6 @@ ul
     margin:auto;
     border-radius: 8px;
     padding:3px;
-}
-.nav:hover
-{
-    text-decoration: overline;
-    color: #0065FC;
 }
 html
 {

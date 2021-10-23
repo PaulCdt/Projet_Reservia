@@ -3,7 +3,6 @@ html
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
-
 .lieu
 {
     padding-top:5px;
@@ -22,6 +21,20 @@ html
     padding:10px;
     border-radius: 15px;
     color:white;
+}
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+.nav:hover
+{
+    text-decoration: underline;
+    color: #0065FC;
+}
+.filtres:hover
+{
+    background-color: #F2F2F2;
 }
 mark
 {
@@ -44,6 +57,10 @@ mark
     top:55px;
     right:250px;
 }
+#navheber:hover
+{
+    text-decoration: underline #0065FC;
+}
 #navactivites
 {
     position: relative;
@@ -62,6 +79,10 @@ mark
 .filtres
 {
     width:150px;
+}
+.filtre p:hover
+{
+    background-color: #F2F2F2;
 }
 #eco
 {
