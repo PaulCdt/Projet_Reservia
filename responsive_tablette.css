@@ -28,6 +28,10 @@ a
     text-decoration: overline;
     color: #0065FC;
 }
+hr
+{
+    visibility: hidden;
+}
 ul
 {
     display: grid;

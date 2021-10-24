@@ -7,6 +7,10 @@ ul
     display:grid;
     grid-template-columns: 30% 30% 30% 30%;
 }
+hr
+{
+    visibility: hidden;
+}
 ul li:nth-child(1) 
 {
     position: relative;
