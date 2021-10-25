@@ -115,7 +115,7 @@ mark
 {
     background-color: #F2F2F2;
 }
-#eco
+/*#eco
 {
     height:25px;
 }
@@ -163,7 +163,7 @@ mark
     bottom:4px;
     right:10px;
     padding:13px;
-}
+}*/
 .grille
 {
     display:grid;
@@ -200,35 +200,35 @@ mark
 }
 .droite
 {
-    width:360px;
+    width:330px;
 }
 .droite img
 {
-    width:200px;
+    width:50%;
     height:120px;
 }
 .droite figure
 {
     height:120px;
-    width:150px;
+    width:120px;
     font-size: 0.9em;
     position: relative;
-    left:60px;
+    left:40px;
 }
 .dumatin
 {
     height:130px;
-    width:358px;
+    width:318px;
 }
 .deleau
 {
     height:130px;
-    width:358px;
+    width:318px;
 }
 .etblanc
 {
     height:130px;
-    width:358px;
+    width:318px;
 }
 .droite div.rating
 {
@@ -268,7 +268,7 @@ mark
 }
 .marseille img
 {
-    width:353px;
+    width:100%;
     height:200px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
